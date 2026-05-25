@@ -17,33 +17,42 @@ export interface Product {
 
 export const products: Product[] = [
   {
-    id: 'artesanal',
+    id: 'batata-20un',
     name: 'Batata Americana com 20 unidades',
-    weight: '35g',
+    weight: '35g cada',
     tagline: 'Crocante e saboroso',
     description:
-      'Batatas frescas e crocantes, preparadas com batatas selecionadas. O clássico que não pode faltar a qualquer hora.',
+      'Pacote com 20 saquinhos de batata americana. Batatas selecionadas, ideais para revenda ou festas.',
     image: '/images/batata-35g-20un.png',
+  },
+  {
+    id: 'batata-palha',
+    name: 'Batata Palha',
+    weight: '120g',
+    tagline: 'Fininhas e Sequinhas',
+    description:
+      'Palha fininha e sequinha, ideal para strogonoff, hot dog e pratos especiais. Batatas selecionadas.',
+    image: '/images/batata-palha.png',
+
+  },
+  {
+    id: 'batata-americana',
+    name: 'Batata Americana',
+    weight: '160g',
+    tagline: 'A Mais Crocante!',
+    description:
+      'Chips redondos e crocantes em saquinho individual. O clássico que não pode faltar.',
+    image: '/images/batata-americana.png',
   },
   {
     id: 'pelete-bacon',
     name: 'Pelete de Bacon',
     weight: '125g',
-    tagline: 'A Mais Crocante!',
+    tagline: 'Sabor defumado',
     description:
-      'Pelete de bacon ondulado com listras douradas e sabor defumado. Perfeito para petiscar a qualquer hora.',
+      'Pelete ondulado com listras douradas e sabor defumado de bacon. Perfeito para petiscar.',
     image: '/images/pelete-bacon.png',
   },
-  {
-    id: 'Batata americana',
-    name: 'Batata americana',
-    weight: '160g',
-    tagline: 'Crocante e saboroso',
-    description:
-      'Batatas frescas e crocantes, preparadas com batatas selecionadas. O clássico que não pode faltar a qualquer hora.',
-    image: '/images/batata-americana.png',
-  },
-
 ]
 
 export const features = [
