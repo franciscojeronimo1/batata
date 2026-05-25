@@ -15,7 +15,7 @@ export function Footer({ whatsappUrl }: { whatsappUrl: string }) {
           </div>
 
           <p className="text-center text-sm text-kika-brown/60">
-            Batatas artesanais · {LOCATION}
+            Batatas naturais · {LOCATION}
             <br />
             <span className="text-xs">Atendemos toda a Região</span>
           </p>

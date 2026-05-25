@@ -42,7 +42,7 @@ export function About() {
               Nossa história
             </span>
             <h2 className="mb-6 font-display text-3xl font-bold text-kika-brown md:text-4xl">
-              Tradição artesanal de Minas Gerais
+              Tradição natural de Minas Gerais
             </h2>
             <p className="mb-4 leading-relaxed text-kika-brown/80">
               A Kika nasceu do amor pela batata e pela tradição mineira. Em{' '}
@@ -52,7 +52,7 @@ export function About() {
             </p>
             <p className="mb-4 leading-relaxed text-kika-brown/80">
               Nossos produtos vão da clássica batata palha fininha e sequinha aos
-              chips artesanais e salgadinhos sabor bacon — tudo feito com receita
+              chips naturais e salgadinhos sabor bacon — tudo feito com receita
               de família e aquele toque especial que só quem faz com carinho consegue.
             </p>
             <p className="leading-relaxed text-kika-brown/80">

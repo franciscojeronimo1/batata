@@ -67,8 +67,8 @@ export const features = [
     icon: 'crunch' as const,
   },
   {
-    title: '100% Artesanal',
-    description: 'Produção artesanal em Santana do Jacaré, com receita de família e muito carinho.',
+    title: '100% Natural',
+    description: 'Produção natural em Santana do Jacaré, com receita de família e muito carinho.',
     icon: 'heart' as const,
   },
 ]
