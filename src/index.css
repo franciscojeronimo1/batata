@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-kika-red: #c41e24;
+  --color-kika-red-dark: #9a161b;
+  --color-kika-yellow: #f5b800;
+  --color-kika-yellow-light: #ffd54f;
+  --color-kika-brown: #2d1810;
+  --color-kika-cream: #fff8f0;
+  --font-display: "Playfair Display", Georgia, serif;
+  --font-body: "DM Sans", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-kika-cream text-kika-brown font-body antialiased;
+  }
+
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .fade-in {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+      opacity 0.7s ease,
+      transform 0.7s ease;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
